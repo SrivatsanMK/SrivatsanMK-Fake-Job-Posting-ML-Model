@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # Load your trained fake job model
 # Make sure this file exists in the same folder
-model = load("fake_job_model.pkl")
+model = load(r'model\fake_job_model.pkl')
 
 @app.route("/")
 def home():
