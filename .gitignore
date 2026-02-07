@@ -1,6 +1,6 @@
 # Virtual environment
 venv/
 
-# ML models
+# Models
 model/
 *.pkl
